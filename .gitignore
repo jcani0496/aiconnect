@@ -1,0 +1,30 @@
+node_modules/
+dist/
+bin/
+bun.lockb
+*.log
+.DS_Store
+
+# Build artifacts
+agent/bin/
+agent/dist/
+pwa/dist/
+pwa/playwright-report/
+pwa/test-results/
+
+# Runtime / local data
+.aiconnect/
+~/.aiconnect/
+
+# Local state
+.env
+.env.local
+
+# Brainstorming scratch (not source of truth)
+.superpowers/brainstorm/
+
+# OS / editor
+.vscode/
+.idea/
+*.swp
+Thumbs.db
